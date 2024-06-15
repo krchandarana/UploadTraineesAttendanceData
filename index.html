@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<label for="excel-file">Select XLSX file</label>
+<br>
+<input type="file" placeholder="Select XLSX file" id="excel-file">
+<br>
+<table id="confirmation-table" border="1" style="margin-top: 10px"></table>
+<div>
+    <button type="button" id="upload-btn" style="display: none;margin-top: 10px">Upload</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
